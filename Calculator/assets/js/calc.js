@@ -1,21 +1,5 @@
-// function add(){
-// let numbers = []
-// let sum = 0;
-// let size = parseInt(prompt("How many numbers do you want to add? "));
-//  for(var i=0;i<size;i++){
-//     numbers[i] = parseInt(prompt("Enter your number"));
-//     console.log(numbers[i]);
-//  }
-//  for(var j=0;j<numbers.length;j++){
-//     sum = sum + numbers[i];
-//  }
-//  return sum;
-// }
-// console.log(add());
 
-// program for a simple calculator
- 
-(function(){
+ (function(){
     let result;
 
     // take the operator input

@@ -1,63 +1,63 @@
-// //declaring variables
-// var firstName;
-// var lastName;
-// var age;
-// var job;
+//declaring variables
+var firstName;
+var lastName;
+var age;
+var job;
 
-// //receiving inforamtion
-// firstName = prompt("enter your first name ");
-// lastName = prompt("enter your last name ");
-// age = prompt("enter your age ");
-// job = prompt("enter your profession ");
+//receiving inforamtion
+firstName = prompt("enter your first name ");
+lastName = prompt("enter your last name ");
+age = prompt("enter your age ");
+job = prompt("enter your profession ");
 
 //displaying information
-// console.log("Here is your Profile ")
-// console.log("Full Name: " + firstName + " "+lastName);
-// console.log("Profession : " + job);
-// console.log("Age : " + age + " " + "years old");
+console.log("Here is your Profile ")
+console.log("Full Name: " + firstName + " "+lastName);
+console.log("Profession : " + job);
+console.log("Age : " + age + " " + "years old");
 
-// let eligibleToVote;
-// let tempAge;
+let eligibleToVote;
+let tempAge;
 
-// tempAge = Number(age);
+tempAge = Number(age);
 
-// if(tempAge >= 18){
-//     eligibleToVote = true;
-// }else{
-//     eligibleToVote = false;
-// }
+if(tempAge >= 18){
+    eligibleToVote = true;
+}else{
+    eligibleToVote = false;
+}
 
-// console.log("eligible to vote: "+eligibleToVote);
-
-
-// let familyMembers = new Array();
-// let numberOfFamily;
-
-// numberOfFamily = parseInt(prompt("how many number of family do you have? "));
-
-// for(var i=0;i<numberOfFamily;i++){
-//     familyMembers[i] = prompt("add your family..."+(i+1));
-// }
-
-// console.log("family members");
-
-// familyMembers.forEach(function(family){
-//     console.log("family member "+family);
-// });
+console.log("eligible to vote: "+eligibleToVote);
 
 
-// var birthYear;
+let familyMembers = new Array();
+let numberOfFamily;
+
+numberOfFamily = parseInt(prompt("how many number of family do you have? "));
+
+for(var i=0;i<numberOfFamily;i++){
+    familyMembers[i] = prompt("add your family..."+(i+1));
+}
+
+console.log("family members");
+
+familyMembers.forEach(function(family){
+    console.log("family member "+family);
+});
 
 
-// birthYear = prompt("Enter your birth year.");
+var birthYear;
 
 
-// function ageCalc(birthYear){
-//     return new Date().getFullYear - birthYear ;
-// }
+birthYear = prompt("Enter your birth year.");
 
-// let tempAge = ageCalc(birthYear);
-// console.log("Age "+tempAge+" years old");
+
+function ageCalc(birthYear){
+    return new Date().getFullYear - birthYear ;
+}
+
+let tempAge = ageCalc(birthYear);
+console.log("Age "+tempAge+" years old");
 
 var weight;
 var height;
@@ -82,22 +82,22 @@ if(answer < 18.5){
     console.log("you are obese");
 }
 
-// (function() {
+(function() {
 
-//     console.log("Here is your Profile ")
-//     console.log("Full Name: " + firstName + " " + lastName);
-//     console.log("Profession : " + job);
-//     console.log("Age : " + tempAge + " " + "years old");
-//     console.log("Is Eligible to Vote : " + isEligibleToVote);
+    console.log("Here is your Profile ")
+    console.log("Full Name: " + firstName + " " + lastName);
+    console.log("Profession : " + job);
+    console.log("Age : " + tempAge + " " + "years old");
+    console.log("Is Eligible to Vote : " + isEligibleToVote);
 
-//     console.log("Family Members ");
+    console.log("Family Members ");
 
-//     //Displaying the family member with foreach
-//     familyMember.forEach(function(member, index) {
-//         console.log("Family Member  " + (index + 1) + " : " + member);
-//     });
+    //Displaying the family member with foreach
+    familyMember.forEach(function(member, index) {
+        console.log("Family Member  " + (index + 1) + " : " + member);
+    });
 
-//     // call to bmi calculator 
-//     calcBmi(weight, height);
-// })();
+    // call to bmi calculator 
+    calcBmi(weight, height);
+})();
 
