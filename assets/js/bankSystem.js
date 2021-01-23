@@ -78,29 +78,29 @@ var Bank = {
 
 }
 
-(function(){
+// (function(){
 
     var loop = parseInt(prompt("choose 0 to quit or 1 to continue"));
     while(loop){
     // take the choice input
-    const choice = prompt('Enter your choice ( deposit, withdraw,balance  or transfer ): ');
+    const choice = prompt('Enter your choice ( 1 for deposit, 2 for withdraw,3 for balance  or 4 for transfer ): ');
     var loop = parseInt(prompt("choose 0 to quit or 1 to continue"));
     // take the choice input
 
     switch(choice) {
-        case 'deposit':
+        case '1':
             console.log(Bank.deposit());
             break;
 
-        case 'withdraw':
+        case '2':
             console.log(Bank.withdraw());
             break;
 
-        case 'transfer':
+        case '4':
             console.log(Bank.transfer());
             break;
 
-        case 'balance':
+        case '3':
             console.log(Bank.balance());
             break;
 
@@ -110,4 +110,4 @@ var Bank = {
 }
     }
     
-})();
+// })();
