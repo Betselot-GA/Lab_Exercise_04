@@ -87,13 +87,7 @@ function min(){
     for(var i=0;i<size;i++){
         list[i] =  prompt("Enter a number: ");
     }  
-    for(var j=0;j<size;j++){
-        if(list[j]<list[j++]){
-            min = list[j++]
-        }else{
-            min = list[j]
-        }
-    }
+  min = Math.min.apply(Math,list);
     return min;
 }
 

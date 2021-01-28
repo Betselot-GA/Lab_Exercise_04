@@ -61,7 +61,7 @@ var Bank = {
         if(this.account==1){
             this.transferAmount = parseInt(prompt("Enter the amount you want to transfer: "));
             this.account1 -= this.transferAmount;
-            currentBalance2 += transferAmount;
+            account2 += transferAmount;
             console.log("You transfered: " + this.transferAmount + " birr to  account2 .");
     
         }else if(this.account==2){
